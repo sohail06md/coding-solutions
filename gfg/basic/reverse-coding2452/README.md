@@ -28,16 +28,23 @@ Explanation: Since n is 0, the sum is 0.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T06:36:46.374Z  
+**Submitted:** 2026-11-13T06:38:02.476Z  
 
-```py
-n = int(input())
+```java
+import java.util.Scanner;
 
-# code here
-print((int)(n*(n+1)/2))
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        // code here
+        System.out.println(n*(n+1)/2);
+    }
+}
 ```
 
 ---
