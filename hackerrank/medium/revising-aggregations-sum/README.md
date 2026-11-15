@@ -18,7 +18,7 @@ The **CITY** table is described as follows:
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-15T16:17:59.521Z  
+**Submitted:** 2026-11-15T16:18:26.953Z  
 
 ```sql
 select sum(population ) from city where district="california"
